@@ -1,0 +1,214 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+h6{
+    text-align: center;
+}
+
+/* MENU WRAPPER*/
+h1, h2, h3{
+  text-align: center;
+/* FAZENDO EFEITO 3D NOS TITULO DAS EM H1 - DOS TEXTOS*/                 
+     color: rgb(241, 241, 233);
+     text-shadow: 
+          1px -1px 0px rgb(238, 234, 233), 
+          1px -1px 1px rgb(140, 167, 22),                  
+          1px 1px 2px rgb(7, 139, 36),                                            
+          -1px 2px 2px rgb(236, 232, 232),                                             
+          -5px 10px 5px rgb(31, 30, 30);                                                                                                               
+    }
+
+
+/* DIMENSÕES E POSIÇÕES DO MENU WRAPPER */
+  #wrapper {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+ 
+  /* CURSOR */
+  label {
+    cursor:all-scroll;
+  }
+  
+  /* FOCUS */
+  label:focus {
+    outline:invert;
+  }
+ 
+  /* MENU RETRÁTIL E FUNDO BACKGROUND E ETC */
+  .menu {
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    /*POSICIONAMENTO E OPACIDADE DO MENU RETRÁTIL*/
+    background-image:  linear-gradient(rgb(41, 6, 6), rgb(105, 52, 8), rgb(15, 11, 7)); 
+    /*background-color: rgb(53, 16, 16);*/
+    opacity: 100%;
+    width: 230px;
+    height: 200%;
+    transform: translate3d(-240px, 0px, 0px);
+    transition: transform 0.30s;
+
+  }
+
+  /* MENU LABEL DE ACESSO DA ABA VISIVEL*/
+  .menu label.menu-toggle {
+    position: absolute;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    line-height: 20px;
+    display: block;
+    padding: 0%;
+    text-indent: -999px;
+    background: #fff url(Menu_traçado.jpg) 50% 50%/30px 30px no-repeat;
+  }
+
+
+
+  /* DEFINIÇÃO CORES E DIMENSÕES DO TEXTO DO MENU*/
+  .menu ul li a, .menu ul li label {
+    display: block;
+    text-align: center;
+    padding: 0 0px;
+    line-height: 60px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+             'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    color:rgb(221, 226, 221);
+  }
+
+  
+/* INPUTS - OCULTAR ELEMENTOS DA PÁGINA */          
+  .menu-checkbox {
+    display: none;
+  }
+  
+/* OCULTAR ICONE DE NAVEGAÇÃO PARA OS RÓTULOS */
+  .menu .menu label.menu-toggle {
+    background: none;
+  }
+  
+  /* MARCAÇÃO DO MENU  E POSIÇÃO */    
+  .menu-checkbox:checked + .menu {
+    transform: translate3d(0,0,0);
+  }
+  
+  /* MOSTRAR O MENU */
+  html, body {
+    height: 100%;
+    background: url(panodefundo.jpg) 50% 50%/cover;
+  }
+  
+
+  
+  p {
+    margin-bottom: 15px;
+  }
+  /* COR E POSIÇÃO E LARGURA DO MENU*/
+  #info {
+    display: table;
+    background: rgba(59, 4, 4, 0.4);
+    height: 10%;
+    width: 100%;
+    position:-ms-page;
+  }
+  #info #info-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    text-transform: uppercase;
+    /* FAZENDO EFEITO DEGRADE NO BACKGROUD DO CABEÇALHO - HEAD*/
+    font-size: 10px;
+    opacity: 100%;
+    background-image: linear-gradient(rgb(41, 6, 6), 
+                                      rgb(211, 107, 22),
+                                      rgb(53, 30, 5));
+
+    /* FAZENDO EFEITO 3D NO TITULO DA POUSADA  - HEAD*/                 
+    color: rgb(241, 241, 233);
+    text-shadow: 
+            1px -1px 0px rgb(245, 240, 240),                  
+            1px 2px 0px rgb(250, 243, 243),                                            
+            -1px 2px 2px rgb(247, 240, 240),                                             
+            -5px 10px 2px rgb(22, 3, 3);                                                                                                       
+    }
+   
+  
+
+  /* TEXTO DO TITULO DA PÁGINA */
+  #info #info-content h1 {
+    color: #fff;
+    border:  3px solid #fff;
+    /* DEFORMANDO BORDA ARREDONDANDO EXTREMIDADES*/
+    border-radius: 50% 10%;
+    text-align:left;
+    background: #fff url(madeira_clara.jpg) no-repeat;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 25px;
+    margin: 12px;
+    display: inline-block;
+  }
+
+  #info #info-content h1 strong {
+    display:flow-root;
+    font-size: 45px;
+  }
+
+  /* ESTILIZAÇÃO IMAGEM E EFEITOS*/
+  .w3grayscale {
+    margin-bottom: 20px;
+    width: 100vw;
+    margin: flex;
+    position: relative;
+    text-align: center;
+    display:flexbox;  
+  }
+  
+  .w3-half{ 
+    margin-left: 10px;
+    margin-bottom: 10px ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* DEFININDO O TAMANHO DAS IMAGENS NO SITE */
+img{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+/* MENU DO HIPERLINK SELECIONADO NO MENU (CORES)*/
+a:hover, a:focus {
+  color: #4beb0c !important;
+  text-decoration:none !important;
+}
+
+a:hover {
+  color: rgb(249, 250, 249);
+  text-decoration: none !important;
+}
+
+a {
+  color: #f8fcf8 !important; 
+  text-decoration: none !important;
+} 
+
+
+
+
+
+
+
+
