@@ -53,7 +53,7 @@ G) Criação de respositório do GIT HUB e envio/compartilhamento com o Professo
  <h1> Licença:<h1>
         <h4>- Tratando-se de projeto elaborado em AULAS de Programação, não foram obtidas licenças para a elaboração do site pois foram utilizados recursos FREE de obtenção de material para uso no site e toda elaboração sendo ficticia sem nehum vínculo comercial ou lucrativo para sua visualização e apreciação.<h4>
 
-  <h1> Ascess</h1>
+  <h1> Acesso</h1>
      <h4>  SITE = meu site:  https://irae-cesar-brandao.github.io/pousadadosonho/</h4>
 
         --------------------- FIM README --------------------------
@@ -111,7 +111,7 @@ G) Creation of GIT HUB repository and sending/sharing with the Course Professor
 
   <h1> Project Developers: <h1>
      <h4> - IRAÊ CÉSAR BRANDÃO - Student of the 2022 WEB PROGRAMMER Course (Adm. https://github.com Irae-Cesar-Brandao) <h4>
-  <h1> Ascess</h1>
+  <h1> Access</h1>
      <h4>  SITE =  Your site is live at https://irae-cesar-brandao.github.io/pousadadosonho/</h4>
 
   <h1> License:<h1>
